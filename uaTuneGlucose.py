@@ -21,8 +21,9 @@ async def readSensor():
         await asyncio.sleep(0.0001)
     
 # async def readSensor():
+#     path = Path(__file__).resolve().parent.joinpath("resultTestSensorGlucose/GLU_BERHASIL_SEMUA.txt")
 #     # path = Path(__file__).resolve().parent.joinpath("resultTestSensorGlucose/GLU_STRIPMASUK_NORMAL.txt")
-#     path = Path(__file__).resolve().parent.joinpath("resultTestSensorGlucose/GLU_STRIPMASUK_ERROR.txt")
+#     #path = Path(__file__).resolve().parent.joinpath("resultTestSensorGlucose/GLU_STRIPMASUK_ERROR.txt")
 #     global sRun
 #     with open(path) as fs:
 #         iter=0
